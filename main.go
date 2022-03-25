@@ -1,19 +1,12 @@
 package main
 
 import (
-	"fmt"
-	server "github.com/tejiriaustin/verbose-doodle/src"
+	server "github.com/tejiriaustin/verbose-doodle/internal/rest"
 	"log"
-	"net/http"
 )
 
 func main() {
-	http.HandleFunc("/create", server.CreateRoomRequestHandler)
-	http.HandleFunc("/join", server.JoinRoomRequestHandler)
-
-	log.Println("Starting the on port 8000")
-	fmt.Println("Starting go server...")
-	err := http.ListenAndServe(":8000", nil)
+	err := server.Run()
 	if err != nil {
 		log.Fatal(err)
 	}
