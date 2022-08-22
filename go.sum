@@ -1,0 +1,4 @@
+github.com/gorilla/websocket v1.5.0 h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=
+github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/tejiriaustin/verbose-doodle v0.0.0-20220308153836-e4185c194b70 h1:rkRwg6HjqyA3z2gE2RYOEA8L6tTuDnCjKz3ttobvhOk=
+github.com/tejiriaustin/verbose-doodle v0.0.0-20220308153836-e4185c194b70/go.mod h1:dbYlmbUFYvdZfy9HZQ9xKKkfbFeRvB//2JScG69PK0E=

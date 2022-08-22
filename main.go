@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	server "github.com/tejiriaustin/verbose-doodle/src"
 	"log"
 	"net/http"
+	"verbose-doodle/src"
 )
 
 func main() {
